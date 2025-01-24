@@ -20,6 +20,12 @@ avd_data_validation_mode: error
 cv_collection: v3
 execute_tasks: true
 
+# Login Banner
+banners:
+  motd: |
+    You shall not pass. Unless you are authorized. Then you shall pass.
+    EOF
+
 # Local Users
 local_users:
   - name: arista
